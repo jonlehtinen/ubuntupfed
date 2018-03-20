@@ -1,4 +1,4 @@
-FROM ubuntu:latest
+FROM ubuntu:16.04
 
 # update utilities and get unzip
 RUN apt-get update && apt-get install -y unzip
